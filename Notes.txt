@@ -1,0 +1,18 @@
+A) Ensure that the training_data[k:k+mini_batch_size] has different images
+mini_batch has 10 images as below
+ie training_data[0]
+   training_data[1]
+   ...
+   training_data[9] are different data points
+   
+[DONE] They are all different data.
+
+
+
+B) In update_mini_batch: we are iterating over 10 images that consitute the mini_batch ie
+  for x, y in mini_batch:
+  Noet: x is the image data ie (784,1) and y is (10,1)
+  
+C) Ensure that in backprop() the activation is changing as we move from image1 to image 2 and so on till image 10
+
+
